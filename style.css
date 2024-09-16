@@ -1,0 +1,60 @@
+.aboutUs {
+  display: flex;
+  margin-top: 10%;
+}
+
+.about_right {
+  width: 45%;
+  margin: 5%;
+}
+.about_left {
+  width: 45%;
+}
+
+.about_img {
+  width: 90%;
+  margin: 5%;
+}
+
+.about_right > h1 {
+  margin-bottom: 5%;
+}
+
+.about_right > h3 {
+  margin-bottom: 5%;
+}
+
+/* .cards {
+  margin: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+} */
+
+.cards {
+  margin: 5%;
+
+  display: flex;
+  flex-wrap: wrap; /* Перенос карточек на следующий ряд */
+  gap: 20px; /* Отступы между карточками */
+  justify-content: space-between; /* Распределение карточек */
+}
+
+.card {
+  margin-bottom: 20px; /* Отступ между рядами */
+  width: calc(33.333% - 20px); /* Устанавливаем 3 карточки в ряд с отступами */
+}
+
+footer {
+  background-color: rgb(85, 161, 248);
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  padding-top: 40px;
+}
+
+li {
+  /* color: blue; */
+  margin-top: 20px;
+  list-style-type: none;
+}
